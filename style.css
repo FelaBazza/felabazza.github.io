@@ -1,0 +1,424 @@
+body{
+    padding-bottom: 0%;
+    margin: 0;
+    font-family: 'Righteous', 'Roboto';
+    background-color: white;
+}
+
+
+           /*CSS HEADER*/
+
+header {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    margin: 10px 25px 5px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;    
+    box-shadow: 0 5px 3px #333;
+    z-index: 1;
+           
+ }
+
+ nav a{
+     transition: all .5s;
+     font-size: 20px;
+     padding: 10px 50px;
+     text-decoration: none;
+     color: black;    
+
+    }
+ nav a:hover {
+     color: blue;
+    }
+main {
+
+    padding-top: 70px;
+    }
+
+              /*CSS MAIN*/ 
+
+#main-section {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.section1{
+    display: flex;
+    margin: 35px auto 0;
+    
+    height: 1014px;
+    width: 100%;
+    border-radius: 10px;
+    background-image: url(../img/felipeciudad.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    box-shadow: 0px 8px 8px #333;
+
+
+    }
+.section1 .div-h2{
+    margin-top: 420px;
+    margin-left: 250px;
+    height: 420px;
+    width: 850px;
+    border-bottom: 3px solid #CFD4DD;
+    }
+.div-h2 .caja1{
+     text-shadow: 4px 5px 5px #CFD4DD;
+      font-size: 90px;
+      text-align: center;
+      color: #F5F3F6;
+    }   
+
+#section2{
+    display: flex;      
+    margin: 35px auto 0;   
+         
+    height: 1020px;
+    width: 100%;
+    background-color: #AECFD6;
+    border-radius: 10px ;
+    box-shadow: 0px 8px 8px #333;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    }
+ 
+ #section2 .div-img{
+     border-radius: 10px;
+     width: 794px;
+     height: 898px;
+     margin: 20px 50px;
+     
+     box-shadow: 0px 8px 8px #333;
+     
+    }
+    .div-img img{
+        border-radius: 10px;
+        
+    }
+    
+ #sobremi{     
+     border-radius: 10px;
+     width: 640px;
+     height: 720px;
+     margin: 100px 10px 10px 200px;
+     padding:15px;
+     text-align: center;
+     background-color: #C4CDD4;
+     font-size: 17px;
+     box-shadow: 0px 8px 8px #333;
+     
+    }
+ #sobremi-h2 {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;  
+    margin-bottom: 5px;  
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px #333;
+    }
+   #sobremi-h2 h2{
+    font-size: 30px;
+    padding: 10px 13px;
+   } 
+
+ #sobremi p {
+    text-shadow: 3px 4px 4px white;
+    }
+
+ #section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;   
+    height: 920px;
+    width: 100%;
+    background-color: #FE9D5D;
+    margin: 35px auto;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px #333;
+
+ }   
+ 
+ #portfolio {
+    
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;  
+    margin-bottom: 5px;  
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px #333;
+    
+ }
+ #portfolio h2 {
+     font-size: 30px;
+     padding: 10px 13px;
+ }
+.imagen-portfolio {
+     
+    height: 480px;
+    width: 320px;
+    
+}
+.imagen-portfolio img{
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px #333;
+}
+
+
+
+#servicios {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;  
+    margin-bottom: 5px;  
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px #333;
+
+}
+#servicios h2{
+    font-size: 30px;
+     padding: 10px 13px;
+}
+#section4{
+    /*
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;*/ 
+     
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    height: 920px;
+    width: 100%;
+    background-color:wheat;    
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px #333;
+    margin: 35px auto;
+    
+}
+
+#section4 .contenedor-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+
+    width: 50%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    
+ }
+
+
+
+.contenedor-cards #cards{
+    border-radius: 10px;
+    min-height: 150px;
+    width: 200px;
+    padding: 20px;
+	position: relative;
+	overflow: hidden;
+    background-color:#C4CDD4;  	
+    box-shadow: 0px 8px 8px #333;
+    text-shadow: 3px 4px 4px white;
+}
+
+#cards i{
+    font-size: 30px;
+}
+#cards h2{
+    text-shadow: 3px 4px 4px white;
+}
+
+ #skill{
+    display: flex; 
+    flex-direction: column;  
+    align-items: center; 
+    height: 300px;
+    width: 300px;
+    margin: 230px 50px 50px 150px;
+    border-radius: 10px;
+    min-height: 150px;
+    overflow: hidden;
+	padding: 20px;
+    box-shadow: 0px 8px 8px #333;
+	background-color:#C4CDD4;
+    text-shadow: 3px 4px 4px white;
+   
+}
+#skill h2{
+    border-bottom: 1px solid black;
+    text-shadow: 3px 4px 4px white;
+    padding: 20px;
+
+}
+#skill ul{
+    border-radius: 50%;
+    list-style-image: url(../img/circulolista.png);
+    
+}
+
+/*----------------CSS FOOTER-----------------------*/   
+footer {
+   
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+    #contactos{
+        margin: 5px 100px 5px 100px;
+    }
+
+    #contactos i{
+    padding: 10px;
+    font-size: 55px;
+    color: black;
+   
+}
+
+/*-------------MEDIA QUEIRES----------------------*/
+
+
+
+@media screen and (max-width: 1311px ) {
+    .section1 {
+     min-width: 1087px;
+    
+}
+   
+   
+    .section1 .div-h2{
+         
+        width: 650px;
+        height: 650px;
+        margin: 100px 100px 100px 150px;
+
+    }
+    #section3 {
+        
+        width: 100%;
+        min-width: 1087px;
+        flex-direction: column;
+        align-items: center;
+        height: 1800px;
+    }
+    #section3 div.imagen-portfolio{
+        height: auto;
+        width: auto;
+        
+        width: 520px; 
+        height:480px;
+    }
+    div.imagen-portfolio img#imag-portfolio{
+        height: auto;
+         width: auto;
+        height: 480px;
+        width: 520px;
+
+    } 
+    #section4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-width: 1087px;
+        height: 1800px;
+    
+    }
+    
+    #section4 div.contenedor-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .contenedor-cards div#cards{
+        
+        height: auto;
+        width: auto;
+        width: 500px;
+        height: 270px;
+        font-size: 26px;
+        
+    }
+    #skill{
+        height: auto;
+        width: auto;
+        height: 500px;
+        width: 360px;
+        margin: 25px 25px;
+        font-size: 21px;
+        
+    }
+    footer div#contactos {
+        font-size: 21px;
+        
+    } 
+    }
+
+@media  screen and (max-width: 1615px){
+    #section2 {
+       min-width: 1087px;
+       flex-direction: column;
+       
+       align-items: center;
+       height: 2000px;
+              
+        
+    }
+
+    #section2 div.div-img{
+        height: auto;
+        width: auto;
+        width: 640px;
+        height: 720px;
+    }
+    .div-img img#fotofelipe{
+        height: auto;
+        width: auto;
+        width: 640px;
+        height: 720px;
+    }
+    
+    #section2 #sobremi{
+        font-size: 25px;
+        height: auto;
+        width: auto;
+        width: 870px;
+        height: 1087px;
+        margin:100px 100px 100px 120px;
+    }
+          
+
+}
+
+ 
+
+
+
